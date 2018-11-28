@@ -92,8 +92,8 @@ public class RegProveedor extends javax.swing.JFrame {
 
         labeCantTra.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         labeCantTra.setForeground(new java.awt.Color(64, 145, 242));
-        labeCantTra.setText("CANTIDAD:");
-        jPanel1.add(labeCantTra, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 450, -1, 30));
+        labeCantTra.setText("TRABAJADORES:");
+        jPanel1.add(labeCantTra, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 450, -1, 30));
 
         txtCantTrabajadores.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         txtCantTrabajadores.setForeground(new java.awt.Color(64, 145, 242));
@@ -103,7 +103,7 @@ public class RegProveedor extends javax.swing.JFrame {
                 txtCantTrabajadoresKeyTyped(evt);
             }
         });
-        jPanel1.add(txtCantTrabajadores, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 480, 100, 30));
+        jPanel1.add(txtCantTrabajadores, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 480, 140, 30));
 
         txtNombre.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         txtNombre.setForeground(new java.awt.Color(64, 145, 242));

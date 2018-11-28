@@ -14,8 +14,8 @@ public class Main {
         Controladores.ControlArchivos ca = new ControlArchivos();
         ca.leerArchivos();
         
-//        Inicio inicio = new Inicio();
-//        inicio.setVisible(true);
+        Inicio inicio = new Inicio();
+        inicio.setVisible(true);
 
 //        ServiciosRegistrados sr = new ServiciosRegistrados();
 //        sr.setVisible(true);
@@ -23,8 +23,8 @@ public class Main {
 //        MenuAnalista ma = new MenuAnalista();
 //        ma.setVisible(true);
 
-        ServiciosEnEspera se = new ServiciosEnEspera();
-        se.setVisible(true);
+//        ServiciosEnEspera se = new ServiciosEnEspera();
+//        se.setVisible(true);
 
     }
     
